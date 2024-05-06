@@ -1,0 +1,1 @@
+# staritsyndiplom.github.io
