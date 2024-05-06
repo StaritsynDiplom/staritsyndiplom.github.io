@@ -20,7 +20,8 @@ body{
 }
 
 .img-union{
-    
+    margin: 20px auto 20px auto;
+    display:block
 }
 .veteran-1{
     width: 699px;
@@ -104,4 +105,9 @@ body{
 .veteran-21{
     width: 720px;
     height: 480px;
+}
+
+.h1,
+h2{
+    text-align: center;
 }
