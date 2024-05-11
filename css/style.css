@@ -130,4 +130,14 @@ h2{
 }
 .scale:hover {
     transform: scale(2); /* Увеличиваем масштаб */
-   }
+}
+.video-geroi{
+    margin-left: 150px;
+}
+.april-1{
+    margin-top: 30px;
+}
+.first-hero-russia{
+    display: flex;
+    justify-content: space-between;
+}
