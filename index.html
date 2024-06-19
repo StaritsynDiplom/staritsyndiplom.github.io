@@ -14,20 +14,29 @@
   <header>
     <div class="container">
       <div class="wrap-logo">
-        <a href="#logo" class="logo"><img src="img/logo.gif" alt=""></a>
+        <a href="index.html" class="logo"><img src="img/logo.gif" alt=""></a>
       </div>
       <nav>
         <a class="shapka-a" href="index.html">Главная</a>
         <a class="shapka-a" href="geroi-russia.html">Герои России</a>
-        <a class="shapka-a" href="god-geroev-rus.html">Встреча школьников и студентов с Героями России</a>
-        <a class="shapka-a" href="vstreva.html">Ветераны прокуроры Белоярского района</a>
+        <a class="shapka-a" href="god-geroev-rus.html">Год Героев России</a>
+        <a class="shapka-a" href="vstreva.html">Встреча школьников и студентов с Героями России</a>
+        <a class="shapka-a" href="prokyrori.html">Ветераны прокуроры Белоярского района</a>
         <a class="shapka-a" href="union.html">Союз ветеранов локальных конфликтов Белоярского ГО</a>
       </nav>
     </div>
   </header>
 
   <main>
+    <form>
+      <input class="place_for_search" type="text" id="text-to-find" value="" placeholder="Search" autofocus> 
+      <input class="button_for_turn_back" type="button" onclick="javascript: FindOnPage('text-to-find',false); return false;" value=" " title="Отменить поиск">
+      <input class="button_for_search" type="submit" onclick="javascript: FindOnPage('text-to-find',true); return false;" value=" " title="Начать поиск">
+</form>
     <div class="container">
+      
+
+
       <h1 class="h1">Год Героев России Белоярского городского округа</h1>
 
       <h2 class="h2">Герои России</h2>
@@ -43,6 +52,7 @@
         <a href="geroi-russia.html" class="floating-button">Узнать подробнее</a>
       </div>  
 
+      <h2 class="h2">Год Героев России</h2>
       <img class="God-geroev-rus" src="img/God-geroev-rus.jpg" alt="" width="226px" height="148px">
       <p>
         Белоярский округ - один из самых молодых округов Свердловской области.
@@ -135,15 +145,9 @@
     <footer>
       <div class="container">
         <div class="wrap-logo">
-          <a href="#logo" class="logo"><img src="img/logo.gif" alt=""></a>
+          <a href="index.html" class="logo"><img src="img/logo.gif" alt=""></a>
         </div>
-        <nav>
-          <ul>
-            <li><a href='index.html'>Главная</a></li>
-            <li><a href='#'>Контакты</a></li>
-            <li><a href='#'>Правила</a></li>
-          </ul>
-        </nav>
+
       </div>
     </footer>
 
